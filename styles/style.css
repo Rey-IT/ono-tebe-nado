@@ -1,5 +1,5 @@
 .header {
-    margin: 94px 24px;
+    margin: 94px 24px 76px;
     display: grid;
     grid-template-columns: 1fr 148px 1fr;
     align-items: center;
@@ -9,11 +9,13 @@
 
 .header_menu {
     justify-self: start;
+    margin-top: 16px;
+    margin-left: 7px;
 }
 
 .menu_list {
     display: flex;
-    gap: 28px;
+    gap: 33px;
     list-style: circle;
     margin-left: 26px;
     align-items: center;
@@ -237,6 +239,7 @@
 
 .about__logo-image {
     height: 116px;
+    width: 240px;
 }
 
 .about_column-text {
