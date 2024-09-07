@@ -24,22 +24,20 @@
                     </li>
                 </ul>
             </nav>
-            <a href="#">
+            <a>
                 <img src="./images/logo-black.svg" alt="логотип">
             </a>
-            <article class="contacts">
+            <address class="contacts">
                 <ul class="contacts_list">
                     <li class="contacts_list_link">
-                        <address>
-                            <a href="tel:+99995555555">+9 999 555 5555</a><br>
-                            <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-                        </address>
+                        <a href="tel:+99995555555">9 999 555 5555</a>
                     </li>
                     <li class="contacts_list_link">
-                        <p>наб. Принсенграхт 263- 265, Амстердам</p>
+                        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
                     </li>
+                    <li class="contacts_list_link">наб. Принсенграхт 263- 265, Амстердам</li>
                 </ul>
-            </article>
+            </address>
     </header>
     <main class="main">
         <section class="cover">
@@ -50,7 +48,7 @@
             </h1>
             <div class='overlay'></div>
             <div class="cover__description">
-                <h2 class="cover__description-text">Аукцион вещей, в которые никто не верил</h2>
+                <p class="cover__description-text">Аукцион вещей, в которые никто не верил</p>
                 <button class="bet-button">Сделать ставку</button>
             </div>
         </section>
@@ -58,7 +56,7 @@
             <h2 class="lots_heading">лоты</h2>
                 <ul class="lots__card-list">
                     <li class="lots__card-list-item">
-                        <a class="card-link">
+                        <a href='#' class="card-link">
                             <article class="card card_type_film">
                                 <div class="overlay"></div>
                                 <h3 class="card__title">Фильм режиссёра, который бросил киношколу</h3>
@@ -67,7 +65,7 @@
                         </a>
                     </li>
                     <li class="lots__card-list-item card_type_book">
-                        <a class="card-link">
+                        <a href="#" class="card-link">
                             <article class="card">
                                 <div class="overlay"></div>
                                 <h3 class="card__title">Книга, где описан один скучный день из жизни рекламного агента</h3>
@@ -76,7 +74,7 @@
                         </a>
                     </li>
                     <li class="lots__card-list-item">
-                        <a class="card-link">
+                        <a href="#" class="card-link">
                             <article class="card card_type_picture">
                                 <div class="overlay"></div>
                                 <h3 class="card__title">Картина, которую повторит даже 5-летний сын маминой подруги</h3>
@@ -95,8 +93,8 @@
                 <article class="about_column-text">
                     <h2 class="about__title">Об аукционе</h2>
                     <div class="about__text">
-                        <p class="text_first">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
-                        <p class="text_second">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря
+                        <p class="text_paragraph">Здесь вы не встретите очередное пафосное собрание невероятно дорогого антиквариата. Наши лоты вообще не должны были попасть ни на один аукцион. Потому что кому нужен дневник девочки-подростка или картина, которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?</p>
+                        <p class="text_paragraph">Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками. Непринятые и непонятые. Когда-то они казались просто неудачными. Но, несмотря
                                 на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить современную культуру. Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми. </p>
                     </div>
                 </article>
@@ -104,19 +102,17 @@
         </section>
     </main>
     <footer class="footer">
-        <article class="address">
+        <address class="address">
             <ul class="address_list">
                 <li class="address_list-link">
-                    <address>
-                        <a href="tel:+99995555555">+9 999 555 5555</a><br>
-                        <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
-                    </address>
+                    <a href="tel:+99995555555">9 999 555 5555</a>
                 </li>
                 <li class="address_list-link">
-                    <p>наб. Принсенграхт 263- 265, Амстердам</p>
+                    <a href="mailto:info@sobaka.ge">info@sobaka.ge</a>
                 </li>
+                <li class="address_list-link">наб. Принсенграхт 263- 265, Амстердам</li>
             </ul>
-        </article>
+        </address>
         <nav class="footer__menu">
             <ul class='footer__menu-list'>
                 <li class="footer__menu-list-item">
@@ -130,23 +126,25 @@
                 </li>
             </ul>
         </nav>
-        <ul class="footer__social-list">
-            <li class="footer__social-list-item">
-                <a href="#" target="_blank" class="footer__social-link">
-                    <img class="footer__social-icon" src="./images/yt.svg" alt="иконка ютуба"/>
-                </a>
-            </li>
-            <li class="footer__social-list-item">
-                <a href="#" target="_blank" class="footer__social-link">
-                    <img class="footer__social-icon" src="./images/vk.svg" alt="иконка вк"/>
-                </a>
-            </li>
-            <li class="footer__social-list-item">
-                <a href="#" target="_blank" class="footer__social-link">
-                    <img class="footer__social-icon" src="./images/pinterest.svg" alt="иконка пинтерест"/>
-                </a>
-            </li>
-        </ul>
+        <nav>
+            <ul class="footer__social-list">
+                <li class="footer__social-list-item">
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <img class="footer__social-icon" src="./images/yt.svg" alt="иконка ютуба"/>
+                    </a>
+                </li>
+                <li class="footer__social-list-item">
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <img class="footer__social-icon" src="./images/vk.svg" alt="иконка вк"/>
+                    </a>
+                </li>
+                <li class="footer__social-list-item">
+                    <a href="#" target="_blank" class="footer__social-link">
+                        <img class="footer__social-icon" src="./images/pinterest.svg" alt="иконка пинтерест"/>
+                    </a>
+                </li>
+            </ul>
+        </nav>
     </footer>
   </body>
 </html>
