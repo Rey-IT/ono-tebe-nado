@@ -1,5 +1,5 @@
 .header {
-    padding: 83px 24px 87px;
+    padding: 88px 24px 91px;
     display: grid;
     grid-template-columns: 1fr 148px 1fr;
     align-items: center;
@@ -30,6 +30,11 @@
 
 .link_active {
     text-decoration: none;
+}
+
+.header_logo {
+    width: 148px;
+    height: 105px;
 }
 
 .contacts {
@@ -129,7 +134,7 @@
     text-transform: uppercase;
     border: 1px solid #fff;
     padding: 12px 32px;
-    font-family:inherit; 
+    font-family: inherit; 
 }
 
 .lots {
@@ -245,7 +250,8 @@
 
 .about_column-text {
     display: grid;
-    gap: 200px;
+    padding-top: 100px;
+    gap: 100px;
 }
 
 .about__title {
